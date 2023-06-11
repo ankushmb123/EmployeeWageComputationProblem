@@ -5,9 +5,8 @@ namespace EmployeeWageComputationProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Employee Wage Problem");
-            EmpWage employee = new EmpWage();
-            employee.DailyEmployeeWage();
+            UsingSwitchCase useSwich = new UsingSwitchCase();
+            useSwich.DailyEmployeeWage();
         }
     }
 }
