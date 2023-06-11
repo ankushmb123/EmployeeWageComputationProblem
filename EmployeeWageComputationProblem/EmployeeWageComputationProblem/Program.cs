@@ -5,9 +5,9 @@ namespace EmployeeWageComputationProblem
     {
         static void Main(string[] args)
         {
-            WageForMonth WageMonth = new WageForMonth();
-            WageMonth.MonthlyEmpWage();
+            Console.WriteLine("Welcom to the Employee Wage Problem");
+            EmpWage employee = new EmpWage();
+            employee.MonthlyEmpWage();
         }
     }
-
 }
