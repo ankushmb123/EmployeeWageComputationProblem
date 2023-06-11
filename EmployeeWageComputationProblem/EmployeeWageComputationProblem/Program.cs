@@ -5,9 +5,9 @@ namespace EmployeeWageComputationProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcom to the Employee Wage Problem");
+            Console.WriteLine("Welcome to the Employee Wage Problem");
             EmpWage employee = new EmpWage();
-            employee.EmployeeAttendance();
+            employee.DailyEmployeeWage();
         }
     }
 }
