@@ -5,8 +5,9 @@ namespace EmployeeWageComputationProblem
     {
         static void Main(string[] args)
         {
-            UsingSwitchCase useSwich = new UsingSwitchCase();
-            useSwich.DailyEmployeeWage();
+            WageForMonth WageMonth = new WageForMonth();
+            WageMonth.MonthlyEmpWage();
         }
     }
+
 }
